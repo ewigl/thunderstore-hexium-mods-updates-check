@@ -1,4 +1,4 @@
-# Thunderstore Mods Updates Check
+# Thunderstore / Hexium Mods Updates Check
 
 Check thunderstore.io / hexium.gg mods updates, notify via Telegram.
 
