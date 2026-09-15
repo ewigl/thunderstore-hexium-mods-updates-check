@@ -30,15 +30,25 @@ jobs:
             NAMESPACE=$(jq -r '.namespace' <<< "$mod")
             NAME=$(jq -r '.name' <<< "$mod")
             CURRENT_VERSION=$(jq -r '.version' <<< "$mod")
-            API_URL="https://thunderstore.io/api/experimental/package/${NAMESPACE}/${NAME}/"
+            SITE=$(jq -r '.site // "thunderstore.io"' <<< "$mod")
+            API_URL="https://${SITE}/api/experimental/package/${NAMESPACE}/${NAME}/"
 
-            echo "Checking ${NAMESPACE}/${NAME} (current: ${CURRENT_VERSION})..."
+            echo "Checking ${SITE}/${NAMESPACE}/${NAME} (current: ${CURRENT_VERSION})..."
             PACKAGE=$(curl --fail --silent --show-error --location --retry 3 "$API_URL")
             LATEST_VERSION=$(jq -r '.latest.version_number // .latest.version // (.versions[0].version_number // empty)' <<< "$PACKAGE")
 
             if [ -z "$LATEST_VERSION" ]; then
               echo "Failed to read the latest version for ${NAMESPACE}/${NAME}."
               exit 1
+            fi
+
+            PACKAGE_URL=''
+            if [ "$SITE" = 'hexium.gg' ]; then
+              PACKAGE_URL=$(jq -r '.package_url // empty' <<< "$PACKAGE")
+              if [ -z "$PACKAGE_URL" ]; then
+                echo "Failed to read the package URL for ${NAMESPACE}/${NAME}."
+                exit 1
+              fi
             fi
 
             if [ "$CURRENT_VERSION" != "$LATEST_VERSION" ]; then
@@ -50,7 +60,9 @@ jobs:
                 --arg name "$NAME" \
                 --arg old_version "$CURRENT_VERSION" \
                 --arg version "$LATEST_VERSION" \
-                '. + [{game: $game, namespace: $namespace, name: $name, old_version: $old_version, version: $version}]' \
+                --arg site "$SITE" \
+                --arg package_url "$PACKAGE_URL" \
+                '. + [{game: $game, namespace: $namespace, name: $name, old_version: $old_version, version: $version, site: $site, package_url: $package_url}]' \
                 <<< "$UPDATED_MODS")
               jq --arg namespace "$NAMESPACE" --arg name "$NAME" --arg version "$LATEST_VERSION" \
                 'map(if .namespace == $namespace and .name == $name then .version = $version else . end)' \
@@ -63,7 +75,7 @@ jobs:
             RESULT='No mod updates found.'
             echo "$RESULT"
           else
-            RESULT=$(jq -r '.[] | "【\(.game)】 [\(.name)](https://thunderstore.io/c/\(.game)/p/\(.namespace)/\(.name)/) `\(.old_version)` → `\(.version)`"' <<< "$UPDATED_MODS")
+            RESULT=$(jq -r '.[] | "【\(.game)】 [\(.name)](\(if .site == "hexium.gg" then .package_url else ("https://thunderstore.io/c/" + .game + "/p/" + .namespace + "/" + .name + "/") end)) `\(.old_version)` → `\(.version)`"' <<< "$UPDATED_MODS")
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add "$CONFIG_FILE"
