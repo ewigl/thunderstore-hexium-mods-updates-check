@@ -1,5 +1,7 @@
 # Thunderstore Mods Updates Check
 
-Check thunderstore mods updates, notify via Telegram.
+Check thunderstore.io / hexium.gg mods updates, notify via Telegram.
 
-[API Reference](https://thunderstore.io/api/docs/)
+[Thunderstore API Reference](https://thunderstore.io/api/docs/)
+
+[Hexium API Reference](https://hexium.gg/api/docs/)
