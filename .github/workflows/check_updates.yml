@@ -1,0 +1,92 @@
+name: Check Updates
+on:
+  schedule:
+    - cron: "33 23 * * *"
+  workflow_dispatch:
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+
+      - name: Fetch Latest Versions
+        id: fetch_api
+        run: |
+          CONFIG_FILE="mods.json"
+          UPDATES_FILE=$(mktemp)
+          UPDATED_MODS='[]'
+          HAS_UPDATES='false'
+
+          while IFS= read -r mod; do
+            GAME=$(jq -r '.game' <<< "$mod")
+            NAMESPACE=$(jq -r '.namespace' <<< "$mod")
+            NAME=$(jq -r '.name' <<< "$mod")
+            CURRENT_VERSION=$(jq -r '.version' <<< "$mod")
+            API_URL="https://thunderstore.io/api/experimental/package/${NAMESPACE}/${NAME}/"
+
+            echo "Checking ${NAMESPACE}/${NAME} (current: ${CURRENT_VERSION})..."
+            PACKAGE=$(curl --fail --silent --show-error --location --retry 3 "$API_URL")
+            LATEST_VERSION=$(jq -r '.latest.version_number // .latest.version // (.versions[0].version_number // empty)' <<< "$PACKAGE")
+
+            if [ -z "$LATEST_VERSION" ]; then
+              echo "Failed to read the latest version for ${NAMESPACE}/${NAME}."
+              exit 1
+            fi
+
+            if [ "$CURRENT_VERSION" != "$LATEST_VERSION" ]; then
+              echo "Update found: ${CURRENT_VERSION} -> ${LATEST_VERSION}"
+              HAS_UPDATES='true'
+              UPDATED_MODS=$(jq -c \
+                --arg game "$GAME" \
+                --arg namespace "$NAMESPACE" \
+                --arg name "$NAME" \
+                --arg old_version "$CURRENT_VERSION" \
+                --arg version "$LATEST_VERSION" \
+                '. + [{game: $game, namespace: $namespace, name: $name, old_version: $old_version, version: $version}]' \
+                <<< "$UPDATED_MODS")
+              jq --arg namespace "$NAMESPACE" --arg name "$NAME" --arg version "$LATEST_VERSION" \
+                'map(if .namespace == $namespace and .name == $name then .version = $version else . end)' \
+                "$CONFIG_FILE" > "$UPDATES_FILE"
+              mv "$UPDATES_FILE" "$CONFIG_FILE"
+            fi
+          done < <(jq -c '.[]' "$CONFIG_FILE")
+
+          if [ "$UPDATED_MODS" = '[]' ]; then
+            RESULT='No mod updates found.'
+            echo "$RESULT"
+          else
+            RESULT=$(jq -r '.[] | "【\(.game)】 [\(.name)](https://thunderstore.io/c/\(.game)/p/\(.namespace)/\(.name)/) `\(.old_version)` → `\(.version)`"' <<< "$UPDATED_MODS")
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add "$CONFIG_FILE"
+            git commit -m "Update Thunderstore mod versions"
+            git push
+          fi
+
+          {
+            echo 'result<<EOF'
+            echo "$RESULT"
+            echo 'EOF'
+            echo "has_updates=$HAS_UPDATES"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Telegram Notify
+        if: ${{ always() && env.TELEGRAM_TOKEN && env.TELEGRAM_TO && steps.fetch_api.outputs.has_updates == 'true' }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          disable_web_page_preview: true
+          format: markdown
+          message: |
+            *Thunderstore Mods Updates*
+
+            ${{ steps.fetch_api.outputs.result  }}

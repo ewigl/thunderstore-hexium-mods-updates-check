@@ -1,0 +1,68 @@
+[
+  {
+    "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "Jotunn",
+    "version": "2.30.0"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AchievementEnabler",
+    "version": "0.3.2"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Crevitka",
+    "name": "CleanMainMenu",
+    "version": "1.5.0"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "ConditionalConfigSync",
+    "version": "1.0.99"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "ConfigurationManager",
+    "version": "1.22.20"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "JsonDotNET",
+    "version": "13.0.4"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "ValheimCommunityPatch",
+    "version": "0.27.1"
+  },
+  {
+    "game": "valheim",
+    "namespace": "LuminairPrime",
+    "name": "ValheimIntroSkipper",
+    "version": "1.0.0"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Wire",
+    "name": "WiresGrassTweaks",
+    "version": "0.2.3"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "YamlDotNet",
+    "version": "16.3.1"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ZenDragon",
+    "name": "ZenUI",
+    "version": "1.8.1"
+  }
+]
