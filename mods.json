@@ -17,21 +17,21 @@
     "game": "valheim",
     "namespace": "Crevitka",
     "name": "CleanMainMenu",
-    "version": "1.5.0",
+    "version": "1.1.0",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
     "namespace": "shudnal",
     "name": "ConditionalConfigSync",
-    "version": "1.0.99",
+    "version": "1.0.8",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
     "namespace": "shudnal",
     "name": "ConfigurationManager",
-    "version": "1.22.20",
+    "version": "1.1.21",
     "site": "thunderstore.io"
   },
   {
@@ -73,14 +73,14 @@
     "game": "valheim",
     "namespace": "ZenDragon",
     "name": "ZenUI",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
     "namespace": "Xen",
     "name": "XenRepair",
-    "version": "1.8.1",
+    "version": "1.0.0",
     "site": "hexium.gg"
   }
 ]
