@@ -78,6 +78,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "DualMono",
+    "name": "DodgeKey",
+    "version": "0.0.1",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "Xen",
     "name": "XenRepair",
     "version": "1.0.0",
