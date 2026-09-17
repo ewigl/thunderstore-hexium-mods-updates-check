@@ -64,13 +64,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "LuminairPrime",
-    "name": "ValheimIntroSkipper",
-    "version": "1.0.0",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "Wire",
     "name": "WiresGrassTweaks",
     "version": "0.2.3",
@@ -88,13 +81,6 @@
     "namespace": "ZenDragon",
     "name": "ZenUI",
     "version": "1.8.4",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "DualMono",
-    "name": "DodgeKey",
-    "version": "0.0.1",
     "site": "thunderstore.io"
   },
   {
