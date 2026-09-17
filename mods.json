@@ -3,7 +3,7 @@
     "game": "valheim",
     "namespace": "denikson",
     "name": "BepInExPack_Valheim",
-    "version": "2.30.0",
+    "version": "5.4.2350",
     "site": "thunderstore.io"
   },
   {
@@ -17,7 +17,7 @@
     "game": "valheim",
     "namespace": "ZenDragon",
     "name": "Zen_ModLib",
-    "version": "2.30.0",
+    "version": "1.14.3",
     "site": "thunderstore.io"
   },
   {
