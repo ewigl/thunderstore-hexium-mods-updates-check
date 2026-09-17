@@ -1,8 +1,22 @@
 [
   {
     "game": "valheim",
+    "namespace": "denikson",
+    "name": "BepInExPack_Valheim",
+    "version": "2.30.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "ValheimModding",
     "name": "Jotunn",
+    "version": "2.30.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ZenDragon",
+    "name": "Zen_ModLib",
     "version": "2.30.0",
     "site": "thunderstore.io"
   },
