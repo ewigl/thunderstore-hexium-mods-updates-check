@@ -15,13 +15,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "ZenDragon",
-    "name": "Zen_ModLib",
-    "version": "1.14.3",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.3.2",
@@ -78,9 +71,9 @@
   },
   {
     "game": "valheim",
-    "namespace": "ZenDragon",
-    "name": "ZenUI",
-    "version": "1.8.4",
+    "namespace": "Zenox",
+    "name": "BetterUI",
+    "version": "1.0.4",
     "site": "thunderstore.io"
   },
   {
