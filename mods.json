@@ -10,14 +10,14 @@
     "game": "valheim",
     "namespace": "ValheimModding",
     "name": "Jotunn",
-    "version": "2.30.0",
+    "version": "2.30.1",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "site": "thunderstore.io"
   },
   {
@@ -73,7 +73,7 @@
     "game": "valheim",
     "namespace": "Zenox",
     "name": "BetterUI",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "site": "thunderstore.io"
   },
   {
