@@ -17,7 +17,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
-    "version": "0.3.3",
+    "version": "0.4.0",
     "site": "thunderstore.io"
   },
   {
@@ -73,7 +73,7 @@
     "game": "valheim",
     "namespace": "Zenox",
     "name": "BetterUI",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "site": "thunderstore.io"
   },
   {
