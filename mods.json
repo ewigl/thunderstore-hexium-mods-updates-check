@@ -57,9 +57,9 @@
   },
   {
     "game": "valheim",
-    "namespace": "Wire",
-    "name": "WiresGrassTweaks",
-    "version": "0.2.3",
+    "namespace": "MidnightMods",
+    "name": "CommunityPatchExtras",
+    "version": "0.1.3",
     "site": "thunderstore.io"
   },
   {
