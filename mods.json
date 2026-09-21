@@ -78,9 +78,9 @@
   },
   {
     "game": "valheim",
-    "namespace": "Xen",
-    "name": "XenRepair",
+    "namespace": "ComfyMods",
+    "name": "ComfyAutoRepair",
     "version": "1.0.0",
-    "site": "hexium.gg"
+    "site": "thunderstore.io"
   }
 ]
