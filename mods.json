@@ -22,13 +22,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "Crevitka",
-    "name": "CleanMainMenu",
-    "version": "1.1.0",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "shudnal",
     "name": "ConditionalConfigSync",
     "version": "1.0.8",
@@ -95,13 +88,6 @@
     "namespace": "Cartur",
     "name": "Carturs_Follow_Command",
     "version": "1.0.1",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "Cartur",
-    "name": "Carturs_UI_HUD",
-    "version": "1.0.4",
     "site": "thunderstore.io"
   },
   {
