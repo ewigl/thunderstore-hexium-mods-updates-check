@@ -75,5 +75,12 @@
     "name": "ComfyAutoRepair",
     "version": "1.1.0",
     "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Searica",
+    "name": "DiscoveryPins",
+    "version": "1.1.0",
+    "site": "thunderstore.io"
   }
 ]
