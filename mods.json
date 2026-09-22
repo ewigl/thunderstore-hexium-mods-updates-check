@@ -96,5 +96,12 @@
     "name": "Carturs_Flooring",
     "version": "1.0.1",
     "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Cartur",
+    "name": "Carturs_UI_HUD",
+    "version": "1.0.1",
+    "site": "thunderstore.io"
   }
 ]
