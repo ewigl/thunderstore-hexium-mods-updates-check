@@ -82,5 +82,12 @@
     "name": "DiscoveryPins",
     "version": "1.1.0",
     "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AsyncSave",
+    "version": "1.1.0",
+    "site": "thunderstore.io"
   }
 ]
