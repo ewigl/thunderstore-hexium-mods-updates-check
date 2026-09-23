@@ -78,13 +78,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "MidnightMods",
-    "name": "AsyncSave",
-    "version": "0.5.0",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "ZenDragon",
     "name": "Zen_ModLib",
     "version": "0.5.0",
@@ -93,15 +86,15 @@
   {
     "game": "valheim",
     "namespace": "ZenDragon",
-    "name": "ZenHoverItem",
+    "name": "ZenUI",
     "version": "0.5.0",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
-    "namespace": "ZenDragon",
-    "name": "ZenUI",
-    "version": "0.5.0",
+    "namespace": "Zenox",
+    "name": "BetterUI",
+    "version": "1.0.12",
     "site": "thunderstore.io"
   }
 ]
