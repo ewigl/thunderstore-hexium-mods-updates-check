@@ -80,14 +80,14 @@
     "game": "valheim",
     "namespace": "ZenDragon",
     "name": "Zen_ModLib",
-    "version": "0.5.0",
+    "version": "1.14.9",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
     "namespace": "ZenDragon",
     "name": "ZenUI",
-    "version": "0.5.0",
+    "version": "1.8.10",
     "site": "thunderstore.io"
   },
   {
