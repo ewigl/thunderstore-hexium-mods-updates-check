@@ -89,5 +89,33 @@
     "name": "BetterUI",
     "version": "1.0.12",
     "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "NoBuildDust",
+    "version": "1.0.12",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "TrueInstantLootDrop",
+    "version": "1.0.12",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "FirstPersonMode",
+    "version": "1.0.12",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "NoTreeDust",
+    "version": "1.0.12",
+    "site": "hexium.gg"
   }
 ]
