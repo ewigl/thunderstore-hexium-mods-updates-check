@@ -71,13 +71,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "ComfyMods",
-    "name": "ComfySigns",
-    "version": "1.12.0",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "ZenDragon",
     "name": "Zen_ModLib",
     "version": "1.14.12",
