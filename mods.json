@@ -93,29 +93,8 @@
   {
     "game": "valheim",
     "namespace": "Azumatt",
-    "name": "NoBuildDust",
-    "version": "1.0.7",
-    "site": "hexium.gg"
-  },
-  {
-    "game": "valheim",
-    "namespace": "Azumatt",
-    "name": "NoCreatureDust",
-    "version": "1.0.4",
-    "site": "hexium.gg"
-  },
-  {
-    "game": "valheim",
-    "namespace": "Azumatt",
     "name": "FirstPersonMode",
     "version": "1.4.4",
-    "site": "hexium.gg"
-  },
-  {
-    "game": "valheim",
-    "namespace": "Azumatt",
-    "name": "NoTreeDust",
-    "version": "1.0.1",
     "site": "hexium.gg"
   },
   {
