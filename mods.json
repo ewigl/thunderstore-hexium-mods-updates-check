@@ -117,5 +117,12 @@
     "name": "NoTreeDust",
     "version": "1.0.1",
     "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ontrigger",
+    "name": "ValheimPerformanceOptimizations",
+    "version": "1.0.1",
+    "site": "hexium.gg"
   }
 ]
