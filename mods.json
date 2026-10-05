@@ -71,6 +71,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "ComfyMods",
+    "name": "Gizmo",
+    "version": "1.16.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "ZenDragon",
     "name": "Zen_ModLib",
     "version": "1.14.20",
