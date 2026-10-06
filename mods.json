@@ -31,7 +31,7 @@
     "game": "valheim",
     "namespace": "shudnal",
     "name": "ConfigurationManager",
-    "version": "1.1.23",
+    "version": "1.1.24",
     "site": "thunderstore.io"
   },
   {
@@ -45,14 +45,14 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
-    "version": "0.32.3",
+    "version": "0.32.4",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "CommunityPatchExtras",
-    "version": "0.4.2",
+    "version": "0.5.0",
     "site": "thunderstore.io"
   },
   {
