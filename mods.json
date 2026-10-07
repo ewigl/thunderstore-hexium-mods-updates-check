@@ -15,16 +15,16 @@
   },
   {
     "game": "valheim",
-    "namespace": "MidnightMods",
-    "name": "AchievementEnabler",
-    "version": "0.4.1",
+    "namespace": "ValheimModding",
+    "name": "JsonDotNET",
+    "version": "13.0.4",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
-    "namespace": "shudnal",
-    "name": "ConditionalConfigSync",
-    "version": "1.0.10",
+    "namespace": "ValheimModding",
+    "name": "YamlDotNet",
+    "version": "16.3.1",
     "site": "thunderstore.io"
   },
   {
@@ -36,9 +36,16 @@
   },
   {
     "game": "valheim",
-    "namespace": "ValheimModding",
-    "name": "JsonDotNET",
-    "version": "13.0.4",
+    "namespace": "shudnal",
+    "name": "ConditionalConfigSync",
+    "version": "1.0.10",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AchievementEnabler",
+    "version": "0.4.1",
     "site": "thunderstore.io"
   },
   {
@@ -57,30 +64,30 @@
   },
   {
     "game": "valheim",
-    "namespace": "ValheimModding",
-    "name": "YamlDotNet",
-    "version": "16.3.1",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "ComfyMods",
-    "name": "ComfyAutoRepair",
+    "namespace": "KenziTeam",
+    "name": "ValheimOptimized",
     "version": "1.1.0",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
-    "namespace": "ComfyMods",
-    "name": "Gizmo",
-    "version": "1.16.0",
-    "site": "thunderstore.io"
+    "namespace": "Azumatt",
+    "name": "AzuAreaRepair",
+    "version": "1.1.8",
+    "site": "hexium.gg"
   },
   {
     "game": "valheim",
-    "namespace": "Zenox",
-    "name": "BetterUI",
-    "version": "1.0.20",
+    "namespace": "Azumatt",
+    "name": "AzuWorkbenchTweaks",
+    "version": "1.0.8",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "Firefly",
+    "version": "1.0.11",
     "site": "thunderstore.io"
   },
   {
@@ -92,9 +99,30 @@
   },
   {
     "game": "valheim",
-    "namespace": "KenziTeam",
-    "name": "ValheimOptimized",
-    "version": "1.1.0",
+    "namespace": "ComfyMods",
+    "name": "Gizmo",
+    "version": "1.16.0",
     "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "MyLittleUI",
+    "version": "1.2.26",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "Quickstep",
+    "version": "1.0.15",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "TrueInstantLootDrop",
+    "version": "1.0.5",
+    "site": "hexium.gg"
   }
 ]
