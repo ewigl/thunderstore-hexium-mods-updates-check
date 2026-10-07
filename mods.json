@@ -78,13 +78,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "ZenDragon",
-    "name": "Zen_ModLib",
-    "version": "1.14.21",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "Zenox",
     "name": "BetterUI",
     "version": "1.0.19",
