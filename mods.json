@@ -52,7 +52,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
-    "version": "0.33.0",
+    "version": "0.34.1",
     "site": "thunderstore.io"
   },
   {
@@ -69,7 +69,7 @@
     "version": "1.1.0",
     "site": "thunderstore.io"
   },
-    {
+  {
     "game": "valheim",
     "namespace": "shudnal",
     "name": "AnyWood",
@@ -101,7 +101,7 @@
     "game": "valheim",
     "namespace": "Azumatt",
     "name": "FirstPersonMode",
-    "version": "1.4.4",
+    "version": "1.4.5",
     "site": "hexium.gg"
   },
   {
