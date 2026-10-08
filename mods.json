@@ -113,6 +113,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "ComfyMods",
+    "name": "Intermission",
+    "version": "1.9.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "shudnal",
     "name": "MyLittleUI",
     "version": "1.2.26",
