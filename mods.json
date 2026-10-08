@@ -106,6 +106,20 @@
   },
   {
     "game": "valheim",
+    "namespace": "Advize",
+    "name": "PlantEasily",
+    "version": "2.3.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Advize",
+    "name": "PlantEverything",
+    "version": "1.21.3",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "Azumatt",
     "name": "TrueInstantLootDrop",
     "version": "1.0.5",
