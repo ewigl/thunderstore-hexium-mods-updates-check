@@ -120,13 +120,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "shudnal",
-    "name": "Quickstep",
-    "version": "1.0.15",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "Azumatt",
     "name": "TrueInstantLootDrop",
     "version": "1.0.5",
