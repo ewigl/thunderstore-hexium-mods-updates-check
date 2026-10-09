@@ -71,13 +71,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "shudnal",
-    "name": "AnyWood",
-    "version": "1.0.5",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AsyncSave",
     "version": "0.6.0",
@@ -109,6 +102,13 @@
     "namespace": "shudnal",
     "name": "MyLittleUI",
     "version": "1.2.29",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "NomapPrinter",
+    "version": "1.5.8",
     "site": "thunderstore.io"
   },
   {
