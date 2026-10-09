@@ -78,6 +78,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AsyncSave",
+    "version": "0.6.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "shudnal",
     "name": "Firefly",
     "version": "1.0.11",
