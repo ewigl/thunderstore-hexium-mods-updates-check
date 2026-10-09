@@ -1,10 +1,80 @@
 [
   {
     "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AchievementEnabler",
+    "version": "0.4.1",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "AllPlaceable",
+    "version": "1.0.4",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AsyncSave",
+    "version": "0.6.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "AzuWearNTearPatches",
+    "version": "1.0.10",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "AzuWorkbenchTweaks",
+    "version": "1.0.8",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
     "namespace": "denikson",
     "name": "BepInExPack_Valheim",
     "version": "5.4.2351",
     "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "Build_Camera_Custom_Hammers_Edition",
+    "version": "1.3.4",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "CommunityPatchExtras",
+    "version": "0.5.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "ConditionalConfigSync",
+    "version": "1.0.10",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "ConfigurationManager",
+    "version": "1.1.25",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "GhostBuild",
+    "version": "1.0.4",
+    "site": "hexium.gg"
   },
   {
     "game": "valheim",
@@ -18,62 +88,6 @@
     "namespace": "ValheimModding",
     "name": "JsonDotNET",
     "version": "13.0.4",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "ValheimModding",
-    "name": "YamlDotNet",
-    "version": "16.3.1",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "shudnal",
-    "name": "ConfigurationManager",
-    "version": "1.1.25",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "shudnal",
-    "name": "ConditionalConfigSync",
-    "version": "1.0.10",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "MidnightMods",
-    "name": "AchievementEnabler",
-    "version": "0.4.1",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "MidnightMods",
-    "name": "ValheimCommunityPatch",
-    "version": "0.34.1",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "MidnightMods",
-    "name": "CommunityPatchExtras",
-    "version": "0.5.0",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "KenziTeam",
-    "name": "ValheimOptimized",
-    "version": "1.1.0",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "MidnightMods",
-    "name": "AsyncSave",
-    "version": "0.6.0",
     "site": "thunderstore.io"
   },
   {
@@ -128,8 +142,36 @@
   {
     "game": "valheim",
     "namespace": "Azumatt",
+    "name": "NoBuildDust",
+    "version": "1.0.7",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
     "name": "TrueInstantLootDrop",
     "version": "1.0.5",
     "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "ValheimCommunityPatch",
+    "version": "0.34.1",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "KenziTeam",
+    "name": "ValheimOptimized",
+    "version": "1.1.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "YamlDotNet",
+    "version": "16.3.1",
+    "site": "thunderstore.io"
   }
 ]
