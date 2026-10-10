@@ -3,7 +3,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
-    "version": "0.4.1",
+    "version": "0.5.0",
     "site": "thunderstore.io"
   },
   {
@@ -50,20 +50,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "ValheimModding",
-    "name": "Jotunn",
-    "version": "2.30.2",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
-    "namespace": "ValheimModding",
-    "name": "JsonDotNET",
-    "version": "13.0.4",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "shudnal",
     "name": "Firefly",
     "version": "1.0.11",
@@ -85,10 +71,31 @@
   },
   {
     "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "Jotunn",
+    "version": "2.30.2",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "JsonDotNET",
+    "version": "13.0.4",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "shudnal",
     "name": "MyLittleUI",
     "version": "1.2.29",
     "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "NoBuildDust",
+    "version": "1.0.7",
+    "site": "hexium.gg"
   },
   {
     "game": "valheim",
@@ -114,13 +121,6 @@
   {
     "game": "valheim",
     "namespace": "Azumatt",
-    "name": "NoBuildDust",
-    "version": "1.0.7",
-    "site": "hexium.gg"
-  },
-  {
-    "game": "valheim",
-    "namespace": "Azumatt",
     "name": "TrueInstantLootDrop",
     "version": "1.0.5",
     "site": "hexium.gg"
@@ -136,7 +136,7 @@
     "game": "valheim",
     "namespace": "KenziTeam",
     "name": "ValheimOptimized",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "site": "thunderstore.io"
   },
   {
