@@ -24,6 +24,13 @@
     "game": "valheim",
     "namespace": "denikson",
     "name": "BepInExPack_Valheim",
+    "version": "1.0.3",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "NightKosh",
+    "name": "BlindCartographer",
     "version": "5.4.2351",
     "site": "thunderstore.io"
   },
@@ -32,6 +39,13 @@
     "namespace": "MidnightMods",
     "name": "CommunityPatchExtras",
     "version": "0.5.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "Compass",
+    "version": "1.1.2",
     "site": "thunderstore.io"
   },
   {
