@@ -29,9 +29,9 @@
   },
   {
     "game": "valheim",
-    "namespace": "NightKosh",
-    "name": "BlindCartographer",
-    "version": "1.0.3",
+    "namespace": "shudnal",
+    "name": "BuildPiecesCustomized",
+    "version": "1.3.2",
     "site": "thunderstore.io"
   },
   {
