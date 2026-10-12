@@ -15,6 +15,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "Zenox",
+    "name": "AutoDoors",
+    "version": "1.0.19",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "Azumatt",
     "name": "AzuWorkbenchTweaks",
     "version": "1.0.8",
