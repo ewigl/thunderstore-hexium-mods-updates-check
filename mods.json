@@ -3,7 +3,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "site": "thunderstore.io"
   },
   {
@@ -38,7 +38,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "CommunityPatchExtras",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "site": "thunderstore.io"
   },
   {
@@ -101,7 +101,7 @@
     "game": "valheim",
     "namespace": "shudnal",
     "name": "MyLittleUI",
-    "version": "1.2.30",
+    "version": "1.2.31",
     "site": "thunderstore.io"
   },
   {
