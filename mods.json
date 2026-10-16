@@ -10,7 +10,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AsyncSave",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "site": "thunderstore.io"
   },
   {
@@ -52,7 +52,7 @@
     "game": "valheim",
     "namespace": "shudnal",
     "name": "ConditionalConfigSync",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "site": "thunderstore.io"
   },
   {
@@ -136,7 +136,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
-    "version": "0.36.0",
+    "version": "0.36.1",
     "site": "thunderstore.io"
   },
   {
