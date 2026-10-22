@@ -106,6 +106,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "shudnal",
+    "name": "StaminaExtended",
+    "version": "1.0.11",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "Searica",
     "name": "UnderTheSea",
     "version": "1.1.0",
@@ -123,6 +130,13 @@
     "namespace": "KenziTeam",
     "name": "ValheimOptimized",
     "version": "1.1.1",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "Waystones",
+    "version": "1.2.2",
     "site": "thunderstore.io"
   },
   {
