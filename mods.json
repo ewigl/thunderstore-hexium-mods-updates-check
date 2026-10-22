@@ -107,15 +107,15 @@
   {
     "game": "valheim",
     "namespace": "shudnal",
-    "name": "StaminaExtended",
-    "version": "1.0.11",
+    "name": "Quickstep",
+    "version": "1.0.15",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
-    "namespace": "Searica",
-    "name": "UnderTheSea",
-    "version": "1.1.0",
+    "namespace": "shudnal",
+    "name": "StaminaExtended",
+    "version": "1.0.11",
     "site": "thunderstore.io"
   },
   {
