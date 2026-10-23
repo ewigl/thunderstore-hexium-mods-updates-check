@@ -120,6 +120,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "Advize",
+    "name": "StumpsRegrow",
+    "version": "1.1.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
     "version": "0.37.0",
