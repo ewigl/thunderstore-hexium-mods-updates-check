@@ -2,7 +2,6 @@ name: Check Updates
 on:
   schedule:
     - cron: "33 23 * * *"
-    - cron: "33 9 * * *"
   workflow_dispatch:
   push:
 
