@@ -10,7 +10,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AsyncSave",
-    "version": "0.6.1",
+    "version": "0.7.0",
     "site": "thunderstore.io"
   },
   {
@@ -87,7 +87,7 @@
     "game": "valheim",
     "namespace": "shudnal",
     "name": "MyLittleUI",
-    "version": "1.2.31",
+    "version": "1.2.32",
     "site": "thunderstore.io"
   },
   {
