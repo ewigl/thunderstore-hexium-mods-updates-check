@@ -3,21 +3,21 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "AsyncSave",
-    "version": "0.6.1",
+    "version": "0.7.0",
     "site": "thunderstore.io"
   },
   {
     "game": "valheim",
     "namespace": "denikson",
     "name": "BepInExPack_Valheim",
-    "version": "5.4.2351",
+    "version": "5.4.2360",
     "site": "thunderstore.io"
   },
   {
@@ -31,7 +31,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "CommunityPatchExtras",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "site": "thunderstore.io"
   },
   {
@@ -87,7 +87,7 @@
     "game": "valheim",
     "namespace": "shudnal",
     "name": "MyLittleUI",
-    "version": "1.2.31",
+    "version": "1.2.33",
     "site": "thunderstore.io"
   },
   {
@@ -129,7 +129,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
-    "version": "0.38.0",
+    "version": "0.39.1",
     "site": "thunderstore.io"
   },
   {
