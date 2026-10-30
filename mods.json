@@ -113,6 +113,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "Ivvty",
+    "name": "PortalPreview",
+    "version": "1.5.2",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "shudnal",
     "name": "Quickstep",
     "version": "1.0.15",
@@ -123,6 +130,13 @@
     "namespace": "shudnal",
     "name": "StaminaExtended",
     "version": "1.0.11",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Ivvty",
+    "name": "SteadyFrame",
+    "version": "1.2.0",
     "site": "thunderstore.io"
   },
   {
@@ -144,6 +158,13 @@
     "namespace": "KenziTeam",
     "name": "ValheimOptimized",
     "version": "1.1.1",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Ivvty",
+    "name": "ValheimVisuals",
+    "version": "1.4.3",
     "site": "thunderstore.io"
   },
   {
