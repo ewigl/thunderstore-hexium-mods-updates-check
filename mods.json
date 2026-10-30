@@ -57,6 +57,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "Ivvty",
+    "name": "FarLands",
+    "version": "1.0.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "Azumatt",
     "name": "FirstPersonMode",
     "version": "1.4.6",
