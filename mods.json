@@ -59,7 +59,7 @@
     "game": "valheim",
     "namespace": "Ivvty",
     "name": "FarLands",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "site": "thunderstore.io"
   },
   {
@@ -164,7 +164,7 @@
     "game": "valheim",
     "namespace": "Ivvty",
     "name": "ValheimVisuals",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "site": "thunderstore.io"
   },
   {
