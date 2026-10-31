@@ -141,6 +141,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "Smoothbrain",
+    "name": "TargetPortal",
+    "version": "1.2.7",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
     "version": "0.40.0",
