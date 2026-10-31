@@ -113,13 +113,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "Ivvty",
-    "name": "PortalPreview",
-    "version": "1.5.2",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "shudnal",
     "name": "Quickstep",
     "version": "1.0.15",
