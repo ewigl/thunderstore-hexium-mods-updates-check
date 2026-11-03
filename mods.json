@@ -8,13 +8,6 @@
   },
   {
     "game": "valheim",
-    "namespace": "MidnightMods",
-    "name": "AsyncSave",
-    "version": "0.7.0",
-    "site": "thunderstore.io"
-  },
-  {
-    "game": "valheim",
     "namespace": "denikson",
     "name": "BepInExPack_Valheim",
     "version": "5.4.2360",
@@ -75,6 +68,13 @@
     "name": "FirstPersonMode",
     "version": "1.4.6",
     "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "GammaOfNightLights",
+    "version": "1.0.10",
+    "site": "thunderstore.io"
   },
   {
     "game": "valheim",
