@@ -1,0 +1,163 @@
+[
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AchievementEnabler",
+    "version": "0.5.2",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AsyncSave",
+    "version": "0.7.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "denikson",
+    "name": "BepInExPack_Valheim",
+    "version": "5.4.2360",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "BuildPiecesCustomized",
+    "version": "1.3.2",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "CommunityPatchExtras",
+    "version": "0.5.3",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "Compass",
+    "version": "1.1.4",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "ConditionalConfigSync",
+    "version": "1.0.11",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "ConfigurationManager",
+    "version": "1.1.27",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "ExtraSlots",
+    "version": "1.2.23",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Ivvty",
+    "name": "FarLands",
+    "version": "1.0.8",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "FirstPersonMode",
+    "version": "1.4.6",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ComfyMods",
+    "name": "Gizmo",
+    "version": "1.16.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "Jotunn",
+    "version": "2.30.2",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "JsonDotNET",
+    "version": "13.0.4",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "MyLittleUI",
+    "version": "1.2.33",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Advize",
+    "name": "PlantEasily",
+    "version": "2.3.1",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Advize",
+    "name": "PlantEverything",
+    "version": "1.21.4",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Korppis",
+    "name": "SolidHitboxes",
+    "version": "1.0.8",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "StaminaExtended",
+    "version": "1.0.11",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "shudnal",
+    "name": "TradersExtended",
+    "version": "2.0.6",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "ValheimCommunityPatch",
+    "version": "0.40.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Voxheim",
+    "name": "Voxheim",
+    "version": "0.1.10",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "ValheimModding",
+    "name": "YamlDotNet",
+    "version": "16.3.1",
+    "site": "thunderstore.io"
+  }
+]
