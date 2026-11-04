@@ -24,7 +24,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "CommunityPatchExtras",
-    "version": "0.5.3",
+    "version": "0.5.4",
     "site": "thunderstore.io"
   },
   {
@@ -143,7 +143,7 @@
     "game": "valheim",
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
-    "version": "0.40.0",
+    "version": "0.41.0",
     "site": "thunderstore.io"
   },
   {
