@@ -141,6 +141,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "TrueInstantLootDrop",
+    "version": "1.0.5",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
     "version": "0.41.0",
