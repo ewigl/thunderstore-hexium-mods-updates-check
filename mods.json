@@ -107,6 +107,13 @@
   {
     "game": "valheim",
     "namespace": "Azumatt",
+    "name": "NoBuildDust",
+    "version": "1.0.7",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
     "name": "NoWeaponDust",
     "version": "1.0.2",
     "site": "hexium.gg"
