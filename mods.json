@@ -106,6 +106,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "NoWeaponDust",
+    "version": "1.0.2",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
     "namespace": "Advize",
     "name": "PlantEasily",
     "version": "2.3.1",
