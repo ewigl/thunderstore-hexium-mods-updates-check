@@ -141,9 +141,51 @@
   },
   {
     "game": "valheim",
+    "namespace": "TastyChickenLegs",
+    "name": "RecyclePlus",
+    "version": "1.3.9",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Voxheim",
+    "name": "RiversAndLakes",
+    "version": "1.1.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "hyleanlegend",
+    "name": "Rune_Magic",
+    "version": "1.5.1",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "SaveCrossbowState",
+    "version": "1.0.4",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "JereKuusela",
+    "name": "Smoke_Collision",
+    "version": "1.10.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "shudnal",
     "name": "StaminaExtended",
     "version": "1.0.11",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
+    "namespace": "Ivvty",
+    "name": "SteadyFrame",
+    "version": "1.2.2",
     "site": "thunderstore.io"
   },
   {
@@ -166,6 +208,13 @@
     "name": "TrueInstantLootDrop",
     "version": "1.0.5",
     "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "ValheimArmory",
+    "version": "1.38.0",
+    "site": "thunderstore.io"
   },
   {
     "game": "valheim",
