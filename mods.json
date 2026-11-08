@@ -8,6 +8,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "MidnightMods",
+    "name": "AsyncSave",
+    "version": "0.7.0",
+    "site": "thunderstore.io"
+  },
+  {
+    "game": "valheim",
     "namespace": "denikson",
     "name": "BepInExPack_Valheim",
     "version": "5.4.2360",
