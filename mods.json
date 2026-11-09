@@ -1,5 +1,21 @@
 [
   {
+    "namespace": "Goldenrevolver",
+    "name": "Quick_Stack_Store_Sort_Trash_Restock",
+    "version": "0.5.2"
+  },
+  {
+    "namespace": "KG",
+    "name": "DragNBuild",
+    "version": "0.5.2",
+    "site": "hexium.gg"
+  },
+  {
+    "namespace": "Searica",
+    "name": "Extra_Snap_Points_Made_Easy",
+    "version": "0.5.2"
+  },
+  {
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.5.2"
