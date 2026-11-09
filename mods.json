@@ -15,6 +15,13 @@
   },
   {
     "game": "valheim",
+    "namespace": "Azumatt",
+    "name": "AzuAreaRepair",
+    "version": "1.1.8",
+    "site": "hexium.gg"
+  },
+  {
+    "game": "valheim",
     "namespace": "denikson",
     "name": "BepInExPack_Valheim",
     "version": "5.4.2360",
