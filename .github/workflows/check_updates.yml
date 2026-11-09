@@ -79,12 +79,17 @@ jobs:
           if [ "$UPDATED_MODS" = '[]' ]; then
             RESULT='No mod updates found.'
             echo "$RESULT"
+            COMMIT_MESSAGE='actions: sort mods'
           else
             RESULT=$(jq -r '.[] | "【\(.game)】 [\(.name)](\(if .site == "hexium.gg" then .package_url else ("https://thunderstore.io/c/" + .game + "/p/" + .namespace + "/" + .name + "/") end)) `\(.old_version)` → `\(.version)`"' <<< "$UPDATED_MODS")
+            COMMIT_MESSAGE='actions: update mod versions'
+          fi
+
+          git add "$CONFIG_FILE"
+          if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add "$CONFIG_FILE"
-            git commit -m "actions: update mod versions"
+            git commit -m "$COMMIT_MESSAGE"
             git push
           fi
 
