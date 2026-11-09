@@ -34,7 +34,7 @@
   {
     "namespace": "MidnightMods",
     "name": "CommunityPatchExtras",
-    "version": "0.5.4"
+    "version": "0.6.0"
   },
   {
     "namespace": "shudnal",
@@ -175,7 +175,7 @@
   {
     "namespace": "MidnightMods",
     "name": "ValheimCommunityPatch",
-    "version": "0.43.1"
+    "version": "0.44.0"
   },
   {
     "namespace": "Voxheim",
