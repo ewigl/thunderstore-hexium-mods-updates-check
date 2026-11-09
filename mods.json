@@ -1,5 +1,10 @@
 [
   {
+    "namespace": "TastyChickenLegs",
+    "name": "RecyclePlus",
+    "version": "1.3.9"
+  },
+  {
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.5.2"
@@ -119,11 +124,6 @@
     "namespace": "Advize",
     "name": "PlantEverything",
     "version": "1.21.4"
-  },
-  {
-    "namespace": "Goldenrevolver",
-    "name": "Quick_Stack_Store_Sort_Trash_Restock",
-    "version": "1.4.16"
   },
   {
     "namespace": "Voxheim",
