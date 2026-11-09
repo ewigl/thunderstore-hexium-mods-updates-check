@@ -28,7 +28,7 @@ jobs:
           HAS_UPDATES='false'
 
           while IFS= read -r mod; do
-            GAME=$(jq -r '.game' <<< "$mod")
+            GAME=$(jq -r '.game // "valheim"' <<< "$mod")
             NAMESPACE=$(jq -r '.namespace' <<< "$mod")
             NAME=$(jq -r '.name' <<< "$mod")
             CURRENT_VERSION=$(jq -r '.version' <<< "$mod")
