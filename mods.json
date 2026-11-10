@@ -1,11 +1,6 @@
 [
   {
     "namespace": "MidnightMods",
-    "name": "DvergerAutomation",
-    "version": "0.12.4"
-  },
-  {
-    "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.5.2"
   },
@@ -61,6 +56,11 @@
     "name": "DragNBuild",
     "version": "1.6.0",
     "site": "hexium.gg"
+  },
+  {
+    "namespace": "MidnightMods",
+    "name": "DvergerAutomation",
+    "version": "0.12.4"
   },
   {
     "namespace": "shudnal",
