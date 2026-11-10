@@ -1,6 +1,11 @@
 [
   {
     "namespace": "MidnightMods",
+    "name": "DvergerAutomation",
+    "version": "0.12.4"
+  },
+  {
+    "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.5.2"
   },
