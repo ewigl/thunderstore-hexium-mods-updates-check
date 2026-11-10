@@ -1,6 +1,11 @@
 [
   {
     "namespace": "MidnightMods",
+    "name": "ItemFavoriteFramework",
+    "version": "1.0.0"
+  },
+  {
+    "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.5.2"
   },
