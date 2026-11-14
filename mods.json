@@ -1,5 +1,10 @@
 [
   {
+    "namespace": "Smoothbrain",
+    "name": "Jewelcrafting",
+    "version": "2.0.11"
+  },
+  {
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.5.2"
@@ -58,11 +63,6 @@
     "site": "hexium.gg"
   },
   {
-    "namespace": "MidnightMods",
-    "name": "DvergerAutomation",
-    "version": "0.12.4"
-  },
-  {
     "namespace": "shudnal",
     "name": "ExtraSlots",
     "version": "1.2.24"
@@ -92,11 +92,6 @@
     "namespace": "ComfyMods",
     "name": "Gizmo",
     "version": "1.16.0"
-  },
-  {
-    "namespace": "MidnightMods",
-    "name": "ItemFavoriteFramework",
-    "version": "1.0.0"
   },
   {
     "namespace": "ValheimModding",
@@ -129,11 +124,6 @@
     "namespace": "Advize",
     "name": "PlantEverything",
     "version": "1.21.4"
-  },
-  {
-    "namespace": "Voxheim",
-    "name": "RiversAndLakes",
-    "version": "1.1.0"
   },
   {
     "namespace": "hyleanlegend",
