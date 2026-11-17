@@ -1,5 +1,11 @@
 [
   {
+    "namespace": "Smoothbrain",
+    "name": "TargetPortal",
+    "version": "1.2.7",
+    "site": "hexium.gg"
+  },
+  {
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.5.2"
