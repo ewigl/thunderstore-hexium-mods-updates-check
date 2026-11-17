@@ -1,11 +1,5 @@
 [
   {
-    "namespace": "Smoothbrain",
-    "name": "TargetPortal",
-    "version": "1.2.7",
-    "site": "hexium.gg"
-  },
-  {
     "namespace": "MidnightMods",
     "name": "AchievementEnabler",
     "version": "0.5.2"
@@ -162,6 +156,12 @@
     "namespace": "Advize",
     "name": "StumpsRegrow",
     "version": "1.1.0"
+  },
+  {
+    "namespace": "Smoothbrain",
+    "name": "TargetPortal",
+    "version": "1.2.7",
+    "site": "hexium.gg"
   },
   {
     "namespace": "shudnal",
